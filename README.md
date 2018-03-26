@@ -6,7 +6,7 @@ This is an asynchous list written in dart
 
                     
 ###Example
-  HeavyList list = new HeavyList([1,2,3]);
+  ```HeavyList list = new HeavyList([1,2,3]);
   list.loop(
       new Duration(microseconds: 3),
       (data){
@@ -17,3 +17,4 @@ This is an asynchous list written in dart
 	//move to next item
         resume();
   });	
+```
